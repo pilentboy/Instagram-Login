@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    font-size: 16px;
+}
+
+img{
+    width: 70px;
+    height: 30px;
+}
+
+.main{
+    max-width: 350px;
+    width: 100%;
+    height: 100%;
+    margin: 50px auto;
+
+}
+.main .top,.signup {
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    padding: 25px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.main section,div,span{
+    margin: 10px auto;
+}
+
+
+.main .top{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+  
+}
+
+.top .forgot-password{
+    margin: 10px 0;
+}
+
+.top .FB{
+    margin: 5px 0;
+}
+
+.top .form{
+    margin: 10px 0 2px;
+}
+.top .logo{
+    margin: 15px 0;
+}
+.top .or{
+    margin: 2px 0;
+}
+
+.top .logo{
+    width: 170px;
+    height: 55px;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+input::-webkit-input-placeholder{
+    font-size: 0.8rem;
+}
+
+.form .input{
+    margin: 1px 0;
+}
+.input input{
+    margin: 1px 0;
+    padding: 10px 8px;
+    border: 1px solid #efefef;
+    background: #fafafa;
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+.form .input input:focus{
+   outline: #b2b2b2;
+   border-color: #b2b2b2;
+}
+
+.form button,input{
+    border-radius: 3px;
+}
+.form .btn{
+    font-size: 0.9rem;
+    padding: 6px;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form button{
+    margin-top: 5px;
+
+}
+
+.top .or{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.or .line{
+    width: 105px;
+    height: 2px;
+    background: #efefef
+}
+.or span{
+    font-size: 0.8rem;
+    color: #999;
+}
+
+.FB {
+    display: flex;
+    align-items: center;
+}
+
+.FB a{
+    font-size: 0.9rem;
+}
+
+.FB img{
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+}
+.forgot-password{
+    font-size: 0.8rem;
+    color: #003569;
+}
+
+
+
+.signup a{
+   color: #3897f0;
+    margin-left: 5px;
+}
+
+.getAPP{
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 15px 0;
+}
+
+.apps{
+    display: flex;
+    justify-content: space-evenly;
+}
+.apps img{
+    width: 130px;
+    height: 42px;
+}
+
+.footer{
+    padding: 10px 0px 30px;
+    display: flex;
+    align-items: center;
+}
+
+
+.footer .links{
+    display: flex;
+    margin:  0 auto;
+}
+.links li{
+    margin: 0 5px;
+}
+.links li a{
+    font-size: 0.8rem;
+    color: #003569;
+}
+
+.footer .copyRight{
+    color: #999;
+    font-size:0.9rem;
+    margin: 0 auto;
+}
+
+
+@media only screen and (max-width:800px) {
+    .footer{
+        flex-direction: column-reverse;
+    }
+    .copyRight{
+        margin-bottom:13px !important; 
+    }
+    
+    .links{
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
